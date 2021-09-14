@@ -1,0 +1,401 @@
+*{
+    color: black;
+    
+}
+body
+{
+    background-color: rgb(241, 225, 241);
+}
+.container{
+    margin: 0px;
+}
+.mar{
+    margin-left: 300px;
+}
+.color{
+    font-weight: bold;
+    letter-spacing: 1;
+}
+.float{
+    float: right;
+}
+
+i:hover{
+    color: rgb(29, 151, 151);
+}
+a{
+    font-size: 14px;
+    letter-spacing: 2;
+    color: black;
+}
+a:hover{
+    color: rgb(29, 151, 151);
+    
+}
+
+.act{
+    color: rgb(29, 151, 151);
+}
+.cont{
+   position: relative;
+}
+h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.textblock{
+    position: absolute;
+  bottom: 220px;
+  left: 70px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+ 
+}
+.tb{
+    font-weight: bold;
+    font-style: italic;
+}
+ b{
+    color: blue;
+} 
+
+.btn1{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+}
+.btn1 i{
+    color: white;
+}
+.btn1:hover{
+    background-color: grey;
+}
+
+
+/* Featured Collection */
+.featured{
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+
+.horizontal {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.horizontal li{
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px;
+}
+.horizontal li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.ulcont{
+    margin-left: 45px;
+}
+.horizontal span{
+    font-size: 7px;
+    margin: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width:710px) {
+  
+.horizontal {
+    display: inline-block;
+    /* margin-left: 5px; */
+    padding: 0px;
+    margin-top: 20px;
+    margin: 1px;
+}
+.horizontal li{
+    text-decoration: none;
+    display: inline;
+    /* padding-left: 5px; */
+    padding: 0px;
+}
+.horizontal li a{
+    text-decoration: none;
+    font-size: 10px;
+}
+.ulcont{
+    margin-left: 0px;
+    padding: 0px;
+}
+.horizontal span{
+    font-size: 7px;
+    margin: 1px;
+    text-align: left;
+}
+}
+/* textare */
+
+.content{
+    display: flex;
+    background-color: white;
+}
+
+.box{
+    background-color: beige;
+}
+
+
+.marg{
+    margin-left: 18px;
+}
+.content-container span{
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 3;
+}
+.content-container i{
+    font-size: 5px;
+    padding-right: 4px;
+}
+.content-container .c1{
+    color: green;
+}
+.content-container .c2{
+    color: red;
+}
+.content-container .c3{
+    color: yellow;
+}
+.content-container .fa-star{
+    font-size: 7px;
+    color: rgb(250, 250, 0);
+}
+.price{
+    color: red;
+}
+.content-container .small{
+    font-size: 14px;
+    font-weight: normal;
+}
+.content-container .c4{
+    font-size: 9px;
+    padding: 7px;
+    color: purple;
+}
+.content-container .c5{
+    font-size: 9px;
+    padding: 7px;
+    color: blue;
+}
+.content-container .c6{
+    font-size: 9px;
+    padding: 7px;
+    color: orangered;
+}
+.content-container .boxplain{
+    display: inline-flex;
+    padding: auto;
+    padding-left: 4px;
+    margin: 3px;
+    /* margin-left: 6px; */
+    height: 30px;
+    width: 30px;
+    border: 1px solid gray;
+    flex-wrap: wrap;
+}
+.content-container .boxcolor{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: auto;
+    padding-left: 4px;
+    margin: 5px;
+    margin-top: 15px;
+    /* margin-left: 6px; */
+    height: 60px;
+    width: 70px;
+   background-color: rgb(0, 140, 165);
+}
+.content-container b{
+    color: white;
+    padding: 3px;
+    padding-left: 19px;
+}
+.content-container i{
+    color: white;
+    font-size: 14px;margin: 0px;
+    padding: 0px;
+   font-weight: normal;
+    text-align: left;
+}
+.content-container p{
+    display: flex;
+    flex-wrap:wrap;
+}
+.colms{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* instagram */
+.insta{
+    margin-top: 50px;
+}
+
+
+/* responsive */
+@media screen and (width:768px) {
+  .insta{
+      margin-top: 150px;
+  }
+}
+
+/* best deals */
+.deals{
+    margin: 24px;
+    margin-top: 50px;
+}
+.vertical{
+  /*  border: 1px solid; */
+    height: 500px;
+     width: 380px;
+    text-align: center;
+    background-color: white;
+    padding: 0px;
+}
+.dealsheading{
+    font-weight: bold;
+    margin-top: 5px;
+    letter-spacing: 1px;
+
+    
+}
+
+.products{
+    height: 150px;
+    width: 330px;
+    margin-top: 5px;
+    /* border-top: 1px solid; */
+    
+    margin-left: 30px; 
+  
+}
+/* .prod{
+    border-top: 1px solid;
+    
+} */
+
+.leftimage{
+    float: left;
+    margin-top: 20px;
+}
+.rightcontent{
+    /* border: 1px solid; */
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+    
+}
+.rightcontent span{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+  
+.rightcontent i{
+    color: yellow;
+    font-size: 10px;
+    
+    
+}
+.rightcontent .list{
+    color: black;
+    font-size: 17px;
+    border: 1px solid;
+    padding: 4px;
+    margin-top: 5px;
+}
+.rightcontent .list:hover{
+    background-color: rgb(0, 140, 165);
+}
+.rightcontent .fa-shopping-cart{
+    background-color: rgb(0, 140, 165);
+}
+.scroll{
+    padding: 10px;
+    margin: 20px;
+    border-top: 1px solid;
+}
+.scroll {
+    overflow-y: scroll;
+  
+    overflow-x: hidden;
+    height: 400px;
+  }
+  
+  .scroll::-webkit-scrollbar {
+    width: 0.3rem;
+    background-color: silver;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb {
+    background: rgb(0, 140, 165); 
+    border-radius: 10px;
+    
+  }
+
+  @media screen and (min-width: 576px) {
+     .col-sm-12{
+         max-width: 80%;
+     }
+  }
+ 
+
+  /* banner */
+.banner{
+    margin-top: 50px;
+    background-image: linear-gradient(45deg, yellow,green,yellow); 
+    color: white;
+
+}
+.quote{
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+.banner q{
+    color: white;
+}
+
+.btn-blue{
+    background-color: rgb(43, 43, 182);
+}
+.btn-pink{
+    background-color: rgb(223, 35, 98);
+}
+/* footer */
+.font{
+    font-size: 14px;
+}
+
+/* contact us page */
+
+
+label{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+ 
+input[type=text], select, textarea {
+    
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px; 
+    resize: vertical;
+    margin-left: 20px;
+    width: 300px;
+  } 
+  
+  
